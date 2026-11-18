@@ -11,6 +11,8 @@ marks3 = int(sys.argv[6])
 
 total = marks1 + marks2 + marks3
 average = total / 3
+largest = max(marks1, marks2, marks3)
+smallest = min(marks1, marks2, marks3)
 
 print("\n--- Student Details ---")
 print(course1, ":", marks1)
@@ -18,3 +20,5 @@ print(course2, ":", marks2)
 print(course3, ":", marks3)
 print("Total :", total)
 print("Average:", average)
+print("Largest:", largest)
+print("Smallest:", smallest)
